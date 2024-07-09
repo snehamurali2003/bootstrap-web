@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renty</title>
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://png.pngtree.com/png-vector/20190510/ourmid/pngtree-vector-car-icon-png-image_1028600.jpg">
+
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+   integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="./style.css">
+</head>                                                                                                                                                                                                                                                                              
+<body>
+<!-- nav -->
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2" href="#">Renty</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto w-50 d-flex justify-content-evenly">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          cars
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#car1">Luxury</a></li>
+          <li><a class="dropdown-item" href="#car2">others</a></li>
+          
+        </ul>
+      </div>
+
+      <form class="d-flex ms-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- nav -->
+
+<!-- banner -->
+ <section id="home">
+<div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="https://marketplace.canva.com/EAE6ordtaqE/1/0/1600w/canva-grey-car-sale-promo-facebook-post-Ezz_N9PDGq0.jpg" class="d-block w-100 " height="670px"  alt="carousel1">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="https://marketplace.canva.com/EAE_L7Ilorw/1/0/800w/canva-car-rent-modern-poster-ada07SSzo1s.jpg" class="d-block w-100" height="670px alt="carousel2">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="https://marketplace.canva.com/EAE6oTnqaIE/1/0/1600w/canva-grey-and-yellow-car-sale-promo-facebook-post-ySH31vZSQiM.jpg" class="d-block w-100" height="670px alt="carousel3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</section>
+<!-- banner -->
+
+<!-- services -->
+<section id="service">
+    <div class="row m-4 d-flex justify-content-center">
+      <h3 class="text-light text-center mt-4"><i class="fa-solid fa-handshake-angle fa-bounce" style="color: white;"></i>Services</h3>
+      <div class="col-3">
+          <div class="box">
+            <h5>Short-Term Rentals</h5>  
+            <p class="mt-5">Daily Rentals: Ideal for brief needs, such as day trips or urgent travel requirements.
+                Hourly Rentals: Perfect for very short trips or running errands.</p>  
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="box">
+          <h5>Extended Rentals</h5>  
+          <p class="mt-5">Weekly Rentals: Suitable for vacations or temporary transportation needs.
+              Monthly Rentals: Cost-effective for long-term needs without the commitment of buying a car.</p>  
+      </div>
+      </div>
+      <div class="col-3">
+        <div class="box">
+          <h5>Specialty Rentals</h5>  
+          <p class="mt-5">Luxury Car Rentals: Access to high-end vehicles for special occasions like weddings or corporate events.
+              SUV and Van Rentals: Ideal for families, group travel, or moving large items.</p>  
+      </div>
+      </div>
+      <div class="col-3">
+        <div class="box">
+          <h5>Convenient Rentals</h5>  
+          <p class="mt-5">One-Way Rentals: Flexibility to pick up a car at one location and drop it off at another, great for road trips or moving.
+              Airport Rentals: Convenient pick-up and drop-off locations at airports to facilitate easy travel.</p>  
+      </div>
+      </div>
+    </div>
+    
+</section>
+<!-- cart1 -->
+<section id="car1">
+  <div class="row m-4 d-flex align-items-center just">
+    <h3 class="text-light text-center mt-4"><i class="fa-solid fa-car fa-bounce" style="color: #ffffff;"></i></i>Our Luxury Collections</h3>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DEC0tKkK_vfL6CQf6harXsyy0qEZFc3vR-V4O2f281UvIrkzWk-iw52kxLFpMPvH4fY&usqp=CAU" class="card-img-top" alt="car1">
+          <div class="card-body">
+            <h5 class="card-title">BMW</h5>
+            <p class="card-text">condact no:9876540987</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWo064ZcrJD7N0oFKrxqCNYXem1SFC6_9sQ&s" class="card-img-top" alt="car2">
+          <div class="card-body">
+            <h5 class="card-title">AUDI</h5>
+            <p class="card-text">condact no:9996540987</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="https://imgd.aeplcdn.com/664x374/cw/ec/34560/Mini-Cooper-Exterior-128086.jpg?wm=0&q=80" class="card-img-top" alt="car1">
+          <div class="card-body">
+            <h5 class="card-title">MINI COOPER</h5>
+            <p class="card-text">condact no:8796540987</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- cart2 -->
+<section id="car2">
+  <div class="row m-4 d-flex align-items-center">
+    <h3 class="text-light text-center mt-4"><i class="fa-solid fa-car fa-bounce" style="color: #ffffff;"></i></i>Other Collections</h3>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="https://imgd-ct.aeplcdn.com/664x415/n/itk98db_1738093.jpg?q=80" class="card-img-top" alt="car1">
+          <div class="card-body">
+            <h5 class="card-title">SWIFT</h5>
+            <p class="card-text">condact no:8867540987</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Hyundai_Eos_GL_2014_%2811954748753%29.jpg/800px-Hyundai_Eos_GL_2014_%2811954748753%29.jpg" class="card-img-top" alt="car1">
+          <div class="card-body">
+            <h5 class="card-title">EYON</h5>
+            <p class="card-text">condact no:9876540987</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img width="200" height="350" src="data:image/jpeg;base64,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" class="card-img-top" alt="car1">
+          <div class="card-body">
+            <h5 class="card-title">i20</h5>
+            <p class="card-text">condact no:9876540345</p>
+            <a href="#" class="btn btn-secondary">Rent now</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- video -->
+<iframe width="100%" height="700px" src="https://www.youtube.com/embed/8vPpJIqGMBI?si=jhCZXTz5Ya2EbGkX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- footer -->
+<footer class="text-center bg-dark mt-3">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f" style="color: white;"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter" style="color: white;"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google" style="color: white;"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram" style="color: white;"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin" style="color: white;"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-body m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github" style="color: white;"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.05);">
+        <span class="text-light">© 2020 Copyright:</span>
+    <a class="text-body" href="https://mdbootstrap.com/"><span class="text-light">MDBootstrap.com</span></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
